@@ -103,17 +103,21 @@ h1{
     text-align: center;
   }
 }
-/*@media only screen and (max-width:990px) {*/
-  /*.content {*/
-    /*font-size: 2em;*/
-  /*}*/
-/*}*/
+@media only screen and (max-width:990px) {
+  .content {
+    font-size: 2em;
+  }
+}
 @media only screen and (max-width: 1200px) {
   .contact, .service, .locator-panel, .community {
     height: 210px;
   }
 }
-
+@media only screen and (max-width: 990px) {
+  .company-name {
+    font-size: 2em;
+  }
+}
 /*.community{*/
   /*background-color: rgba(255, 255, 255, .8);*/
   /*text-align: center;*/

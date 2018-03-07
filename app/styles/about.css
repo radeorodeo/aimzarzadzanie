@@ -22,6 +22,7 @@ body {
   box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
   font-family: 'Roboto Slab', serif;
   color: #333333;
+  transition-property: background-color;
 }
 .btn, .btn-light {
   color: #333333;
@@ -71,8 +72,11 @@ body {
   color: #333333;
   /*font-family: 'Roboto Slab', serif;*/
   font-family: 'Lato', sans-serif;
+  transition-property: background-color;
+
 }
 .community, .locator-panel{
+  transition-property: background-color;
   /*background-color: rgba(22, 89, 174, .6);*/
   /*background-color: rgba(255, 255, 255, .9);*/
   text-align: center;
@@ -92,18 +96,23 @@ body {
 .no-decor:hover{
   text-decoration: none;
   color: rgba(22, 89, 174, .6);
+  transition-duration: .3s;
 }
 .contact:hover{
   background-color: rgba(233, 48, 48, .6);
 
   /*background-color: rgba(0, 0, 0, .5);*/
   color: rgba(255, 255, 255, 1);
+  transition-duration: .3s;
+
 }
 .community:hover{
   text-decoration: none;
   background-color: rgba(22, 89, 174, .6);
   /*background-color: rgba(0, 0, 0, .5);*/
   color: rgba(255, 255, 255, 1);
+  transition-duration: .3s;
+
 }
 .service:hover{
   text-decoration: none;
@@ -111,6 +120,8 @@ body {
 
   /*background-color: rgba(0, 0, 0, .5);*/
   color: rgba(255, 255, 255, 1);
+  transition-duration: .3s;
+
 }
 .locator-panel:hover{
   text-decoration: none;
@@ -118,6 +129,8 @@ body {
   /*background-color: rgba(0, 0, 0, .5);*/
   background-color: rgba(22, 89, 174, .6);
   color: rgba(255, 255, 255, 1);
+  transition-duration: .3s;
+
 }
 
 @media only screen and (max-width: 1200px) {

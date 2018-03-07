@@ -52,6 +52,7 @@ h1{
   color: #333333;
   /*font-family: 'Roboto Slab', serif;*/
   font-family: 'Lato', sans-serif;
+  transition-property: background-color;
 }
 .community, .locator-panel{
   /*background-color: rgba(22, 89, 174, .6);*/
@@ -66,6 +67,7 @@ h1{
   color: #333333;
   /*font-family: 'Roboto Slab', serif;*/
   font-family: 'Lato', sans-serif;
+  transition-property: background-color;
 }
 .no-decor:hover{
   text-decoration: none;
@@ -78,20 +80,22 @@ h1{
 /*}*/
 .contact:hover{
   background-color: rgba(22, 89, 174, .6);
-
   /*background-color: rgba(0, 0, 0, .5);*/
   color: rgba(255, 255, 255, 1);
+  transition-duration: .5s;
+
 }
 .community:hover{
   text-decoration: none;
   background-color: rgba(22, 89, 174, .6);
   /*background-color: rgba(0, 0, 0, .5);*/
   color: rgba(255, 255, 255, 1);
+  transition-duration: .5s;
 }
 .service:hover{
   text-decoration: none;
   background-color: rgba(22, 89, 174, .6);
-
+  transition-duration: .5s;
   /*background-color: rgba(0, 0, 0, .5);*/
   color: rgba(255, 255, 255, 1);
 }
@@ -101,6 +105,7 @@ h1{
   /*background-color: rgba(0, 0, 0, .5);*/
   background-color: rgba(22, 89, 174, .6);
   color: rgba(255, 255, 255, 1);
+  transition-duration: .5s;
 }
 
 @media only screen and (max-width: 1200px) {

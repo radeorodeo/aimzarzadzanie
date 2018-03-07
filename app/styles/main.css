@@ -70,15 +70,21 @@ h1{
 .no-decor:hover{
   text-decoration: none;
 }
+/*.no-decor{*/
+  /*transition: ease-in .4s;*/
+  /*transition-property: visibility;*/
+  /*transition-duration: 5s;*/
+  /*transition-delay: 2s;*/
+/*}*/
 .contact:hover{
-  background-color: rgba(233, 48, 48, .6);
+  background-color: rgba(22, 89, 174, .6);
 
   /*background-color: rgba(0, 0, 0, .5);*/
   color: rgba(255, 255, 255, 1);
 }
 .community:hover{
   text-decoration: none;
-  background-color: rgba(233, 48, 48, .6);
+  background-color: rgba(22, 89, 174, .6);
   /*background-color: rgba(0, 0, 0, .5);*/
   color: rgba(255, 255, 255, 1);
 }

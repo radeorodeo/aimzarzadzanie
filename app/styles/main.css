@@ -26,13 +26,14 @@ body {
   /*font-family: 'Roboto Slab', serif;*/
 }
 .top_panel{
-  background-color: rgba(61, 64, 91, .6);
+  background-image: url("../images/aim_top_background.png");
+  /*background-color: rgba(61, 64, 91, .6);*/
   line-height: 1.5;
   box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
   font-family: 'Roboto Slab', serif;
 }
 .list{
-  background-color: rgba(61, 64, 91, .6);
+  /*background-color: rgba(61, 64, 91, .6);*/
   line-height: 1.5;
   box-shadow: 0 0 4px rgba(0,0,0,.14), 0 4px 8px rgba(0,0,0,.28);
   font-family: 'Lato', sans-serif;
@@ -40,6 +41,11 @@ body {
   box-sizing: border-box;
   font-size: 2em;
   color: #fafafa;
+}
+.service_list{
+  margin-top: 30px;
+  padding: 30px;
+  background: rgb(67, 115, 150);
 }
 .main-name{
   font-size: 2em;
@@ -58,9 +64,9 @@ h1{
   margin: 0 auto;
 }
 .content{
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px;
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  /*margin-bottom: 20px;*/
   height: 100%;
   align-content: center;
 }
